@@ -2,7 +2,6 @@ const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const RebuildNonDirectlyRelatedModulesPlugin = require('./RebuildNonDirectlyRelatedModulesPlugin')
-const BabelPlugin = require('./BabelPlugin')
 
 module.exports = {
     entry: './src/index.ts',
